@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+import 'app.dart';
+void main() {
+  runApp(const Teko());
+}
+
+=======
 
 void main() {
   runApp(const MyApp());
@@ -120,3 +127,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+>>>>>>> 840dc3cb882b8e1fb23ae8fa796b952af9666cdd
