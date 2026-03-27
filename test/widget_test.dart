@@ -7,13 +7,22 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+<<<<<<< HEAD
 import 'package:teko/app.dart';
 
+=======
+
+import 'package:teko/main.dart';
+>>>>>>> 840dc3cb882b8e1fb23ae8fa796b952af9666cdd
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+<<<<<<< HEAD
     await tester.pumpWidget(const Teko());
+=======
+    await tester.pumpWidget(const MyApp());
+>>>>>>> 840dc3cb882b8e1fb23ae8fa796b952af9666cdd
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
